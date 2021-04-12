@@ -16,7 +16,6 @@ add(3,2)
 
 
 
-
 def add(a,b):
     c=a+b
     return c
@@ -24,7 +23,6 @@ def add(a,b):
 x=add(3,2)
 # print(add(3,2))
 print(x)
-
 
 
 
@@ -36,10 +34,7 @@ def add(a,b):
 print(add(3,2))
 
 
-
 '''
-
-
 
 def isPrime(x):
     for i in range(2, x):
@@ -52,66 +47,3 @@ a=[12,13,7,19]
 for y in a:
     if isPrime(y):
         print(y, end=' ')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

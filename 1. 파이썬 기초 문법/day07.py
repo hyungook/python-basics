@@ -4,7 +4,6 @@
 
 '''
 
-
 msg="It is Time"
 # upper() = 모두 대문자로 변환하는 함
 print(msg.upper())
@@ -57,7 +56,6 @@ for x in msg:
 print()
 
 
-
 tmp='AZ'
 # ord() = 아스키 넘버 출력 (A = 65 / Z = 90)
 for x in tmp:
@@ -69,11 +67,6 @@ for x in tmp:
     print(ord(x))
 
 
-
 # chr = 아스키 넘버에 대응하는 문자 출력
 tmp=65
 print(chr(tmp))
-
-
-
-

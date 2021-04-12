@@ -3,7 +3,6 @@
 
 '''
 
-
 a=[23, 12, 36, 53, 19]
 print(a[:3])
 print(a[1:4])
@@ -18,7 +17,6 @@ print()
 for x in a:
     print(x, end=' ')
 print()
-
 
 
 for x in a:
@@ -61,31 +59,3 @@ if any(15>x for x in a):
     print("Yes")
 else:
     print("No")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

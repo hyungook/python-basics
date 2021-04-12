@@ -37,7 +37,6 @@ print(type(a))
 
 
 # 출력 방식
-
 print("number")
 a,b,c=1,2,3
 print(a,b,c)
@@ -49,11 +48,4 @@ print(a,b,c, sep='\n') # 줄바꿈
 print(a, end=' ') # 줄바꾸기 없앰
 print(b, end=' ')
 print(c)
-
-
-
-
-
-
-
 

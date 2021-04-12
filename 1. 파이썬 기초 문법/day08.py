@@ -62,7 +62,6 @@ print(min(7,5, 3))
 
 
 
-
 print(a)
 # random
 # suffle = 섞는 함수
@@ -81,31 +80,3 @@ print(a)
 # .clear() = 초기화
 a.clear()
 print(a)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

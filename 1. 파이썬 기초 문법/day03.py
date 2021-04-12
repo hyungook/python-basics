@@ -72,8 +72,3 @@ if x>=80:
     print('B')
 if x>=70:
     print('C')
-
-
-
-
-
