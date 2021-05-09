@@ -1,3 +1,5 @@
+# 입출력과 사칙연산
+
 '''
 # 2557
 Hello World!를 출력하시오.
@@ -103,3 +105,13 @@ AxB = A * int(B)
 
 print(AxB2, AxB1, AxB0, AxB, sep='\n')
 # sep='\n'로 줄바꿈
+
+
+num1 = int(input())
+num2 = input()
+
+for i in range(0, 3):
+    result = num1*int(num2[2-i])
+    print(result)
+ 
+print(num1*int(num2))
