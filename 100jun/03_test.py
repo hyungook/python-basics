@@ -1,3 +1,4 @@
+
 # for 문
 
 '''
@@ -14,7 +15,6 @@ for i in range (1, 10):
     print(a, '*',i,'=', a*i)
 
 
-
 '''
 # 10950
 두 정수 A와 B를 입력받은 다음, A+B를 출력하는 프로그램을 작성하시오.
@@ -29,3 +29,44 @@ t = int(input())
 for i in range(t):
     a,b = map(int, input().split())
     print(a + b)
+
+
+'''
+# 8393
+n이 주어졌을 때, 1부터 n까지 합을 구하는 프로그램을 작성하시오.
+첫째 줄에 n (1 ≤ n ≤ 10,000)이 주어진다.
+
+1부터 n까지 합을 출력한다.
+'''
+
+n = int(input())
+a = int(0)
+
+for i in range(n+1):
+    a += i
+    
+print(a)
+
+
+'''
+# 15552
+
+# sys and sys.stdin.readline()  => 공부
+
+# sys.stdin.readline()
+'''
+
+import sys
+
+t = int(sys.stdin.readline())
+
+for i in range(t):
+    a,b = map(int,sys.stdin.readline().split())
+    print(a + b)
+
+
+
+
+
+
+
